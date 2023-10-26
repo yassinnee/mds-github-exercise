@@ -5,6 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class of B3 2023</title>
+<style>
+@keyframes biquette-dance {
+    0% {margin-right: 0%;}
+    10% {transform: rotate( 10deg);}
+    20% {transform: rotate(-10deg);}
+    30% {transform: rotate( 10deg);}
+    40% {transform: rotate(-10deg);}
+    50% {transform: rotate( 10deg);}
+    60% {transform: rotate(-10deg);}
+    70% {transform: rotate( 10deg);}
+    80% {transform: rotate(-10deg);}
+    90% {transform: rotate( 10deg);}
+    100% {margin-right: 20%;transform: rotate(-10deg);}
+}
+.biquette {
+    position: relative;
+    float: right;
+    margin-right: 0px;
+    animation-name: biquette-dance;
+    animation-duration: 3s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    z-index: 5;
+}
+</style>
 </head>
 <body style="font-size:larger;">
     <div style="margin: auto; max-width: 500px; font-family: Arial, Helvetica, sans-serif;">
@@ -23,7 +49,7 @@
                 <td style="color: rgb(17, 175, 78);">Jérémy Cloarec</td>
             </tr>
             <tr>
-                <td style="background-color: #3b4252; color: #d8dee9;">Paul <b>OHL</b> 🐑</td>
+                <td style="background-color: #3b4252; color: #d8dee9;">Paul <b>OHL</b> <span class="biquette">🐑</span></td>
             </tr>
             <tr>
                 <td style="color: cyan;">Student 4</td>
